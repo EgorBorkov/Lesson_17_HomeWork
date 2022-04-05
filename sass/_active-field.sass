@@ -1,0 +1,47 @@
+.active-field
+	display: flex
+	justify-content: space-between
+	&>div
+		border: 2px solid black
+		padding: 25px
+		border-radius: 15px
+		&>form
+			display: flex
+			align-items: center
+			width: 100%
+		&.add-word
+			display: flex
+			flex-grow: 1
+			&+div
+				margin-left: 35px
+			& input
+				font-size: 20px
+				border: none
+				background-color: #EBEBEB
+				width: 120px
+				height: 30px
+				border-radius: 25px
+				color: black
+				padding: 10px
+				&+input
+					margin-left: 10px
+			& button
+				font-size: 20px
+				border: none
+				color: white
+				width: 200px
+				height: 50px
+				background-color: #F39C12
+				border-radius: 25px
+				margin-left: auto
+				cursor: pointer
+		&.search
+			& input
+				font-size: 20px
+				border: none
+				background-color: #EBEBEB
+				height: 30px
+				width: 400px
+				border-radius: 25px
+				color: black
+				padding: 10px
